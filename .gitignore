@@ -13,7 +13,6 @@ __pycache__/
 
 # Data folders
 data/raw/
-data/processed/
 
 # OS stuf
 .DS_Store
