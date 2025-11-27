@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local secrets/config
+.env
+
+# Data folders
+data/raw/
+data/processed/
+
+# OS stuf
+.DS_Store
+Thumbs.db
