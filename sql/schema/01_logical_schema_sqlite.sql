@@ -12,6 +12,7 @@ CREATE TABLE listing (
     listing_id   INTEGER PRIMARY KEY, 
     
     neighbourhood_id INTEGER REFERENCES neighbourhood(neighbourhood_id),
+    city         TEXT,  -- NYC, Boston, or Washington DC
 
     --Host Information
     host_id      INTEGER,
