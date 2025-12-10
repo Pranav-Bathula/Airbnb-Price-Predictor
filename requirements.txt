@@ -1,10 +1,12 @@
-psycopg2-binary
-sqlalchemy
-python-dotenv
+# psycopg2-binary  # No longer needed - using SQLite instead
+# sqlalchemy  # Optional - can be used with SQLite if needed
+# python-dotenv  # No longer needed - using file-based SQLite
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn==1.5.2
 jupyter
+nbclient>=0.5.0  # For executing notebooks programmatically
+nbformat>=5.0.0  # For reading/writing notebook files
 flask
